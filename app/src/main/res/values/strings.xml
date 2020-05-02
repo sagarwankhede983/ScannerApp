@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">RestImplementation</string>
+    <string name="loginpageheading">QR Scanner</string>
+    <string name="loginpagesubheading">Scan Almost Every Code</string>
+    <string name="basic">Basic</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="googlesignin">Sign in with Google</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="notuseryet">Not Member Yet?</string>
+    <string name="create">Crate New Account</string>
+    <string name="username">Name</string>
+    <string name="phone">Phone</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="business">Business</string>
+    <string name="acceptterm"><![CDATA[I accept terms & conditions]]></string>
+    <string name="signup">Sign Up</string>
+    <string name="termconditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="sussfullyRegistered1">Congrats!</string>
+    <string name="registrationSuccessful">Your account is created.</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="received_message">Received Message</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="_9166964412">9166964412</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_the_mobile_number">Enter the mobile number</string>
+    <string name="verify">Verify</string>
+    <string name="enter_the_otp_received_on">Enter the OTP received on</string>
+    <string name="todo">TODO</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="businessList">
+        <item>IT</item>
+        <item>Market</item>
+        <item>Resell</item>
+        <item>Whole-sell</item>
+    </string-array>
+    <string name="title_activity_dashboard__nav">Dashboard_Nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="start_scanner">Scanner</string>
+    <string name="scanner_info">QR Codes</string>
+    <string name="current_month_data">Current Month Data</string>
+    <string name="current_year_data">Current Year Data</string>
+    <string name="view_profile">View Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="logout">Logout</string>
+    <string name="home_q1">What happens when you scan QR codes?</string>
+    <string name="home_q2">How far away can you scan a QR code?</string>
+    <string name="home_q3">How do I keep a QR code on my phone?</string>
+    <string name="home_q4">How do you use QR codes?</string>
+    <string name="home_q5">Are there any risks to scanning QR codes?</string>
+    <string name="home_a1">When consumers scan QR codes, a number of things can occur. Businesses can use QR codes to deliver coupons, product information, and deals or use it to ask shoppers to leave reviews, feedback and follow them on social media.</string>
+    <string name="home_a2">Typically, QR codes found in magazines can be scanned from at least 10 inches away and the QR codes found on billboards can be scanned from 2 meters away. The relationship between the scan distance and the minimum QR code size should be 10:1. A 2.5 cm QR code can be scanned from 250 mm or 10 inches away.</string>
+    <string name="home_a3">Once you create a free QR code on the QR code generator, you can save the QR code on your phone. If you are using QR codes on Facebook, Snapchat or LinkedIn, you can save it as an image on your phone or share it so that other people can add you to that particular network.</string>
+    <string name="home_a4">Apart from useful information about a certain product, QR codes are also used on GMO labeling in the US as well as for proximity marketing. Businesses can leverage QR codes to attract new visitors by allowing them to scan and get navigation details or paste them on flyers and deliver rewards and discounts.</string>
+    <string name="home_a5">Phishing or malicious software being downloaded through QR codes is rare but it is a slim possibility. Only scan QR codes that specify the action or what you can expect once you scan them or see that the URL slug is from a credible source like Beaconstac (tapnscan.me/).</string>
+    <string name="open_scanner">Open Scanner</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="export">Export</string>
+    <string name="download">download</string>
+</resources>

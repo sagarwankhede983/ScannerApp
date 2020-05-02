@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/view_profile"
+                android:icon="@drawable/ic_person_icon"
+                android:title="@string/view_profile" />
+            <item
+                android:id="@+id/edit_profile"
+                android:icon="@drawable/ic_edit_black_24dp"
+                android:title="@string/edit_profile" />
+        </menu>
+    </item>
+
+    <item android:title="Scanner">
+        <menu>
+            <item
+                android:id="@+id/nav_scanner"
+                android:icon="@drawable/ic_scanner_black_24dp"
+                android:title="@string/start_scanner" />
+            <item
+                android:id="@+id/nav_barcode"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/scanner_info" />
+        </menu>
+    </item>
+
+    <item android:title="PDF">
+        <menu>
+        <item
+            android:id="@+id/nav_pdf"
+            android:icon="@drawable/ic_picture_as_pdf_black_24dp"
+            android:title="Export"
+            tools:ignore="HardcodedText" />
+    </menu>
+    </item>
+    <item android:title="Excel">
+    <menu>
+        <item
+            android:id="@+id/nav_excel"
+            android:icon="@drawable/ic_grid_on_black_24dp"
+            android:title="@string/export" />
+    </menu>
+    </item>
+    </menu>

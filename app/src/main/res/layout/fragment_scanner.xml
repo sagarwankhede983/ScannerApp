@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ScannerFragment"
+    android:background="@drawable/gradi"
+    android:id="@+id/nav_scanner"
+    tools:ignore="InvalidId">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="false"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="false" />
+
+    <info.androidhive.barcode.ScannerOverlay
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44000000"
+        app:line_color="#E53935"
+        app:line_speed="6"
+        app:line_width="4">
+
+    </info.androidhive.barcode.ScannerOverlay>
+
+    <TextView
+        android:id="@+id/barcodeDataID"
+        android:layout_width="328dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="83dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+</RelativeLayout>
